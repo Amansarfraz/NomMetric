@@ -4,26 +4,23 @@ class MealCardKrishna extends StatelessWidget {
   final String mealName;
   final String mealTime;
   final IconData icon;
-  final String calories; // Added an optional 'badge' for extra detail
-
+  final String calories;
   const MealCardKrishna({
     super.key,
     required this.mealName,
     required this.mealTime,
     this.icon = Icons.fastfood,
-    this.calories = "🔥 Hot", // Default text if you don't pass any
+    this.calories = "🔥 Hot",
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      // Add margin to separate cards from each other
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
 
-      // Use BoxDecoration for advanced styling (shadows, borders, colors)
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(20), // Smooth, modern corners
+        borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
             color: Colors.grey.withOpacity(0.15), // Soft, subtle shadow
@@ -42,7 +39,6 @@ class MealCardKrishna extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                // A beautiful gradient background for the icon
                 gradient: LinearGradient(
                   colors: [Colors.orange.shade400, Colors.deepOrange.shade600],
                   begin: Alignment.topLeft,
@@ -60,7 +56,7 @@ class MealCardKrishna extends StatelessWidget {
               child: Icon(icon, color: Colors.white, size: 28),
             ),
 
-            const SizedBox(width: 20), // Spacing
+            const SizedBox(width: 20),
             // --- 2. The Text Info ---
             Expanded(
               child: Column(
@@ -71,9 +67,7 @@ class MealCardKrishna extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
-                      color: Color(
-                        0xFF2D3142,
-                      ), // Dark Slate color for readability
+                      color: Color(0xFF2D3142),
                     ),
                   ),
                   const SizedBox(height: 6),
