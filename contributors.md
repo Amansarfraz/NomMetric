@@ -32,6 +32,7 @@
 | Dharaneesh S L | Dharaneeshsl | PSGCT | 24Z218 | 1 |
 | Krishna Sikheirya | Krishna200608 | IIIT Allahabad | IIT2023139 | 1 |
 | Sanchita Agte | san-dae | IIITA | IIT2024159 | 1 |
+| Chithra R | Chithra582 | CIT | 24CS016 | 1 |
 | Deepali Kumari | deepali-kumari-iitp | IIT Patna | IITP002556 | 1 |
 | sujal kshatri| suzzzal | NITRR | 241096 |1|
 <!-- ADD ABOVE THIS-->
