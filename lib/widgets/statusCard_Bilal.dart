@@ -24,7 +24,7 @@ class StatusCardBilal extends StatelessWidget {
         statusColor ?? Theme.of(context).colorScheme.primary;
 
     return Card(
-      elevation: 3,
+      elevation: 4,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
       ),
